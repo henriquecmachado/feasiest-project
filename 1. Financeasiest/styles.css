@@ -1,0 +1,203 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif
+}
+
+/* Navigation Menu */
+nav {
+    width: 1525px;
+    height: 86px; 
+}
+.logo {
+    margin-top: 15px; 
+    margin-left: 24px; 
+}
+
+ul {
+    text-align: right; 
+    margin-top: -25px;
+    margin-right: 500px;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 50px; 
+    font-weight: 600; 
+    height: 32px; 
+    width: 82px;
+}
+
+
+ul li a {
+    text-decoration: none; 
+    color: #4EA8DE; 
+    margin-left: 10px; 
+}
+
+ul li a:hover {
+    color:#6930C3; 
+}
+
+/* nav menu, ends here */
+
+.menu-icons button a {
+    position: absolute;
+    margin-left: 1150px; 
+    margin-top: -55px; 
+    color: white;
+    background: blue; 
+    border-radius: 10px solid;
+    padding: 8px; 
+    border-radius: 20px; 
+}
+
+button a {
+    color: white;
+    font-weight: 900;   
+    text-decoration: none;  
+}
+
+button a:hover {
+    -webkit-transition-duration: 0.5s; /*chrome*/
+    background: #80D8FF; 
+}
+
+.search {
+    position: absolute; 
+    margin-left: 1230px; 
+    margin-top: -32px; 
+}
+
+/* section 2 (two) - learn more and main image */
+
+.learn-more {
+    background: #ccdffb;
+    width: 495px; 
+    height: 585px; 
+}
+
+.main-image {
+    position: absolute;
+    height: 585px;
+    width: 1000px; 
+    margin-top: -585px; 
+    margin-left: 80px;  
+}
+
+.learn-more-1 {
+    margin-top: 300px; 
+    float: left;
+    margin-left: 180px; 
+}
+
+.arrow-to-continue {
+    float: left; 
+    margin: 550px 0px 0px -85px;  
+}
+
+/*  section 3, text */
+.solutions div h2 {
+    text-align: left;
+    margin: 100px; 
+    color: #070A47; 
+}
+
+.solutions div p {
+    text-align: left; 
+    position: absolute; 
+    margin-left: 95px; 
+    margin-top: -65px;  
+}
+
+/* section 3, três blocos*/
+
+.read-more {
+    display: flex; 
+    margin-top: 200px; 
+}
+
+.read-more-1 {
+    background: #2537D9; 
+    align-content: stretch;
+    width: 469px; 
+    height: 405px; 
+    color: white; 
+}
+
+.read-more-2 {
+    background: #343a40; 
+    align-content: stretch;
+    width: 469px; 
+    height: 405px; 
+    color: white;
+}
+
+.read-more-3 {
+    background: #6C757D;
+    align-content: stretch; 
+    width: 469px; 
+    height: 405px; 
+    color: white; 
+}
+
+/* read more 1 - discover and create */
+.read-more-1 h3 {
+    margin-top: 55px; 
+    margin-left: 25px; 
+}
+
+.read-more-1 a {
+    color: white; 
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 210px;  
+}
+
+.read-more-2 h3 {
+    margin-top: 55px; 
+    margin-left: 25px;
+}
+
+.read-more-2 a {
+    color: white; 
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 210px; 
+}
+
+.read-more-3 h3 {
+    margin-top: 55px; 
+    margin-left: 25px;
+}
+
+.read-more-3 a {
+    color: white; 
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 210px; 
+}
+
+/* main footer */
+
+.second-image-site {
+    width: 763px;
+    height: 544px; 
+}
+
+.make-login h2 {
+    position: absolute;
+    margin-left: 800px;  
+    margin-top: -420px; 
+    color: #070A47;
+
+}
+
+.make-login p {
+    position: absolute; 
+    margin-left: 800px; 
+    margin-top: -300px;
+}
